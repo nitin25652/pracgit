@@ -1,0 +1,164 @@
+
+.navbar-container img
+{
+    position: absolute;
+    left: 150px;
+    top: 50px;;
+}
+
+.list
+{
+    position: absolute;
+    top: 50px;
+left: 580px;
+list-style: none;
+}
+.list-item{
+    display: inline-block;
+    padding : 30px;
+    font-size:xx-large;
+    font-family:sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+  position: relative; 
+  display:inline;
+}
+
+.list-item::after
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:0px;
+    width: 0px;
+    height: 5px;
+    border-radius: 15px;
+    background: #333;
+    transition: all 0.45s;
+}
+ .list-item:hover::after
+{
+  width: 100%;
+  left: 0;
+} 
+.search-icon
+{
+    position: absolute;
+    top: 62px;
+    left: 79%;
+}
+.nav-button{
+   position: absolute ;
+   right: 190px;
+   top: 58px;
+   font-size: 25px; 
+   font-family:sans-serif;
+   background: transparent;
+   color:#758283;
+   border-radius: 10px;
+   padding: 5px 40px;
+}
+.square
+{
+/* display: block; */
+position: absolute;
+left: 360px;
+top: 54%;
+}
+.star
+{
+ /* display: block; */
+ position: absolute ;
+ left: 87%;
+ top:  200px;
+}
+.globe
+{
+  /* display: block; */
+  position: absolute;
+  left:58.5%;
+  top:150px
+}
+.person-hero
+{
+    position: absolute;
+    left:150px;
+    top:180px;
+}
+.hero-container-right
+{
+position:absolute;
+left:44%;
+top:25%
+}
+.hero-heading
+{
+    font-size: 580%;
+    font-family:sans-serif;
+    font-weight: 500;
+
+}
+.hero-description
+{
+    position: absolute;
+    top: 85%;
+    left:10.9%;
+    right: 12%;
+    color:#758283;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+}
+.button-email
+{
+    position: absolute;
+    top:150%;
+    left:28%;
+    right: 44%;
+    font-size: 25px; 
+    font-family:sans-serif;
+    background: transparent;
+    color:#758283;
+    border-radius: 10px;
+    padding: 5px 40px;
+
+}
+.button-join
+{
+    position: absolute;
+    top:150%;
+    left:58%;
+    right:25%;
+    font-size: 25px; 
+    font-family:sans-serif;
+    background: #1f1f1f;
+    color:white;
+    border-radius: 10px;
+    padding: 5px 0px;
+    transition : box-shadow 300ms ease-in-out;
+}
+.button-join:hover{
+    
+    box-shadow: 0 0 10px 10px gray;
+}
+.contact-heading
+{
+    position: absolute;
+    top:180%;
+    left:50%;
+    color:#758283;
+    font-size: 25px;
+    font-family:sans-serif;
+}
+.icons
+{
+    position: absolute;
+    top:220%;
+    right:30%; 
+}
+.icons >*
+{
+    margin-left: 30px;
+}
+
+
